@@ -1,0 +1,21 @@
+:root {
+    --theme-colour: #2196F3;
+
+    --text-primary: #212121;
+    --text-secondary: #757575;
+    
+    --primary-font: "Roboto";
+    --secondary-font: "Releway";
+}
+
+body {font-family: var(--primary-font);}
+
+ul {list-style: none;}
+
+a {text-decoration: none;}
+
+address {font-style: normal;}
+
+
+
+/*Старт стилизирования*/
