@@ -19,3 +19,21 @@ address {font-style: normal;}
 
 
 /*Старт стилизирования*/
+
+    .web-style{
+        color: #2196F3;
+    }
+
+    
+    .logo{
+        font-family: var(--secondary-font), sans-serif;
+        font-style: normal;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+        }
+
+        .nav-link:hover,
+        .nav-link:focus{
+            color: var(--theme-colour);
+         }
