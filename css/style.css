@@ -26,6 +26,9 @@ address {font-style: normal;}
     .web-style{
         color: #2196F3;
     }
+    .studio-style{
+        color: #000000;
+    }
 
     
     .logo{
@@ -46,9 +49,9 @@ address {font-style: normal;}
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 1.1;
         letter-spacing: 0.02em;
-        color: #212121;}
+        color: var(--text-primary);}
 
     .active-page{
         color: var(--theme-colour);
@@ -60,9 +63,9 @@ address {font-style: normal;}
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 1.1;
         letter-spacing: 0.02em;
-        color: #757575; 
+        color: var(--text-secondary); 
         }
 
     .link-box_mail:hover,
@@ -105,9 +108,15 @@ address {font-style: normal;}
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
         }
-    
+    .button:hover{
+        color: #188CE8;
+    }
   
     .button-text{
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 0.06em;
         color: #FFFFFF;
     }
         
@@ -157,7 +166,7 @@ address {font-style: normal;}
         font-size: 16px;
         line-height: 1.2;
         letter-spacing: 0.03em;
-        color: #757575;
+        color: var(--text-secondary);
         }
 
         /* Стилизирование футера */
@@ -198,7 +207,7 @@ address {font-style: normal;}
         font-size: 26px;
         line-height: 1.2;
         letter-spacing: 0.03em;
-            color: #FFFFFF;
+        color: #FFFFFF;
         }
 
     .logo-footer{
@@ -206,7 +215,7 @@ address {font-style: normal;}
         font-size: 26px;
         line-height: 1.2;
         letter-spacing: 0.03em;
-            color: #FFFFFF;
+        color: #FFFFFF;
         }
 
     .web-style-footer{
@@ -216,8 +225,17 @@ address {font-style: normal;}
         letter-spacing: 0.03em;
         color: #2196F3;
         }
-        /* Стили кнопок портфолио */
-    
+      
+    /* Стилизирование кнопок портфолио */
+
+    .button-portfolio{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.6;
+        text-align: center;
+        letter-spacing: 0.03em; 
+        color: #212121;
+        }
    
         
 
