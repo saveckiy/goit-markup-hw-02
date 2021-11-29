@@ -229,14 +229,33 @@ address {font-style: normal;}
     /* Стилизирование кнопок портфолио */
 
     .button-portfolio{
+        font-family: var(--primary-font);
         font-weight: 500;
         font-size: 16px;
         line-height: 1.6;
         text-align: center;
         letter-spacing: 0.03em; 
-        color: #212121;
+        color: var(--text-primary) ;
         }
-   
+
+    .project-name{
+        font-family: var(--primary-font);
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+        color: var(--text-primary);
+    }
+   .project-work{
+        font-family: var(--primary-font);
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 1.8;
+        letter-spacing: 0.03em;
+        color: var(--text-secondary);
+    }
         
 
     
